@@ -3,11 +3,11 @@
 
 //************************* KEY *************************//
 //			|											 //
-//	//<-	|	PARAMETER(S)							 //
-//			|	The parameter type(s) of a given member  //
+//	//<-	|	PARAMETER(S);							 //
+//			|	The parameter type(s); of a given member //
 //			|		function. This is followed by a		 //
 //			|		brief description of the			 //
-//			|		parameter(s) and their purpose.		 //
+//			|		parameter(s); and their purpose.	 //
 //			|											 //
 //	//->	|	RETURN									 //
 //			|	The return type of a given member		 //
@@ -28,18 +28,18 @@ int main() {
 	//
 	//
 	//	Capacity
-	foo.empty()		//	Test whether container is empty
+	foo.empty();	//	Test whether container is empty
 					//<-
 					//->	boolean
 					//			True if there are no elements in the container, 
 					//			false if not.
 
-	foo.size()		//	Return container size
+	foo.size();		//	Return container size
 					//<-
 					//->	size_type
 					//			The number of elements in the container.
 
-	foo.max_size()	//	Return maximum size
+	foo.max_size();	//	Return maximum size
 					//<-
 					//->	size_type
 					//			The maximum number of elements the object can hold
@@ -48,7 +48,7 @@ int main() {
 	//
 	//
     //  Iterators
-    foo.begin()     //	Return iterator to beginning
+    foo.begin();    //	Return iterator to beginning
 					//<-[1]		
 					//<-[2]	size_type n
 					//			"n" represents a bucket number.
@@ -57,7 +57,7 @@ int main() {
 					//->[2]	local_iterator, const_local_iterator
 					//			An local_iterator to the first element in the bucket.
 
-    foo.end()       //	Return iterator to end
+    foo.end();      //	Return iterator to end
 					//<-[1]		
 					//<-[2]	size_type n
 					//			"n" represents a bucket number.
@@ -68,7 +68,7 @@ int main() {
 					//			An local_iterator to the element past the end of the
 					//			bucket.
 
-    foo.cbegin()	//	Return const_iterator to beginning
+    foo.cbegin();	//	Return const_iterator to beginning
 					//<-[1]		
 					//<-[2]	size_type n
 					//			"n" represents a bucket number.
@@ -77,7 +77,7 @@ int main() {
 					//->[2]	const_local_iterator
 					//			A const_local_iterator to the first element in the bucket.
 
-    foo.cend()		//	Return const_iterator to end
+    foo.cend();		//	Return const_iterator to end
 
 	//
 	//
