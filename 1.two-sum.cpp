@@ -20,8 +20,10 @@ public:
             if(map.find(complement) != map.end())
                 return { map.at(complement), i };
 
-            map.insert(nums[i], i);
+            map.emplace(nums[i], i);
         }
+
+		throw "No Solution";
     }
 };
 // @lc code=end
