@@ -10,7 +10,9 @@
 // @lc code=start
 class Solution {
 public:
-    std::vector<int> twoSum(std::vector<int>& nums, int target) {
+
+	//	Reference answer
+    /*std::vector<int> twoSum(std::vector<int>& nums, int target) {
         unsigned int numsSize = nums.size();
         std::unordered_map<int, int> map;
 
@@ -24,7 +26,13 @@ public:
         }
 
 		throw "No Solution";
+    }*/
+
+	//	Practice
+    std::vector<int> twoSum(std::vector<int>& nums, int target) {
+        return {};
     }
+
 };
 // @lc code=end
 
