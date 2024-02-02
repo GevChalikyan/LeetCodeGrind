@@ -14,5 +14,8 @@
     },
     "cSpell.ignoreWords": [
         "LISTNODE"
-    ]
+	],
+	"cSpell.words": [
+		"leetcode"
+	]
 }
